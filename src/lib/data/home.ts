@@ -3,12 +3,12 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'Mohamed';
 
-export const lastName = 'LastName';
+export const lastName = 'Fetni';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	'I’m a full-stack developer and SharePoint consultant with expertise in ASP.NET Core for backend development, React for building dynamic frontend applications, I have extensive experience in delivering digital solutions  for complex business environments';
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/' },
@@ -26,7 +26,7 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'fetni.wassim@gmail.com'
 	},
 	{
 		platform: Platform.Youtube,
