@@ -14,7 +14,11 @@ const config = {
 		}
 	},
 	kit: {
-		adapter: adapter({ fallback: '404.html' }),
+		adapter: adapter({
+			fallback: '404.html',
+			pages: 'public', // output folder for static pages
+			assets: 'public',
+		}),
 		alias: {
 			$lib: './src/lib',
 			'@data': './src/lib/data',
